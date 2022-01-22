@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 3.5fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "content content"
+    "footer footer";
+
+    height: 100vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center left;
+    background-color: var(--violet);
+    background-image: url(/images/bg-desktop.svg);
+}
+
+#header {
+    padding: clamp(2.5rem, 3vw, 5rem);
+    grid-area: header;
+}

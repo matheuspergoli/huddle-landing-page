@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 :root {
     --font-open_sans: 'Open Sans', sans-serif;
     --font-poppings: 'Poppins', sans-serif;
 
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
+}
+
+html {
+    font-size: 62.5%;
 }
 
 .center-img {
