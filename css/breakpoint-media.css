@@ -37,21 +37,28 @@
 /* BODY */
 @media (max-width: 992px) {
     body {
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
         "header header"
         "image image"
         "desc desc"
         "footer footer";
 
+        gap: 0px;
         background-position: top;
         background-image: url(/images/bg-mobile.svg);
     }
 
     #description {
+        margin: auto;
         gap: 2rem;
     }
 
     #description h1, p {
         text-align: center;
+    }
+
+    #container-img, #description {
+        padding-top: 9rem;
     }
 }

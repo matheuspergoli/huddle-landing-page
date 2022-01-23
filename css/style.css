@@ -56,5 +56,5 @@ body {
     color: white;
     max-width: 570px;
     font-family: var(--font-open-sans);
-    font-size: clamp(2rem, 2vw, 2rem);
+    font-size: clamp(2.5rem, 2vw, 2rem);
 }
