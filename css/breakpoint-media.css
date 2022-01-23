@@ -46,7 +46,7 @@
 
         gap: 0px;
         background-position: top;
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
     }
 
     #description {
