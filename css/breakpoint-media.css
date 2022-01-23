@@ -33,3 +33,25 @@
         width: 1320px;
     }
 }
+
+/* BODY */
+@media (max-width: 992px) {
+    body {
+        grid-template-areas: 
+        "header header"
+        "image image"
+        "desc desc"
+        "footer footer";
+
+        background-position: top;
+        background-image: url(/images/bg-mobile.svg);
+    }
+
+    #description {
+        gap: 2rem;
+    }
+
+    #description h1, p {
+        text-align: center;
+    }
+}

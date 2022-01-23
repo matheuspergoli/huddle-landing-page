@@ -1,13 +1,15 @@
 body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 3.5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
     grid-template-areas: 
     "header header"
-    "content content"
+    "image desc"
     "footer footer";
 
+    gap: 2rem;
     height: 100vh;
+    padding: 0px 1rem 0px 1rem;
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,6 +20,41 @@ body {
 }
 
 #header {
-    padding: clamp(2.5rem, 3vw, 5rem);
     grid-area: header;
+    padding: clamp(2.5rem, 3vw, 4rem);
+}
+
+#container-img {
+    grid-area: image;
+    padding-top: 14rem;
+    width: 100%;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#description {
+    grid-area: desc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    padding-top: 13rem;
+}
+
+#description h1 {
+    color: white;
+    max-width: 570px;
+    font-family: var(--font-poppings);
+    font-size: clamp(3.5rem, 3vw, 5rem);
+}
+
+#description p {
+    color: white;
+    max-width: 570px;
+    font-family: var(--font-open-sans);
+    font-size: clamp(2rem, 2vw, 2rem);
 }

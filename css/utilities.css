@@ -7,7 +7,7 @@
 }
 
 :root {
-    --font-open_sans: 'Open Sans', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
     --font-poppings: 'Poppins', sans-serif;
 
     --violet: hsl(257, 40%, 49%);
