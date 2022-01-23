@@ -43,6 +43,7 @@ body {
     align-items: center;
     margin-right: auto;
     padding-top: 13rem;
+    gap: 2.5rem;
 }
 
 #description h1 {
@@ -57,4 +58,32 @@ body {
     max-width: 570px;
     font-family: var(--font-open-sans);
     font-size: clamp(2.5rem, 2vw, 2rem);
+}
+
+#button {
+    width: 17rem;
+    height: 4.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-right: auto;
+    line-height: 4.5rem;
+    color: var(--violet);
+    border-radius: 2.5rem;
+    text-decoration: none;
+    background-color: white;
+    transition-duration: 250ms;
+    font-family: var(--font-poppings);
+}
+
+#button:hover {
+    color: white;
+    background-color: var(--soft-magenta);
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#footer > * {
+    font-size: 2rem;
 }

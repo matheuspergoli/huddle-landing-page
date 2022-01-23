@@ -51,11 +51,15 @@
 
     #description {
         margin: auto;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     #description h1, p {
         text-align: center;
+    }
+
+    #button {
+        margin: auto;
     }
 
     #container-img, #description {
